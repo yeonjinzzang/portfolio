@@ -274,9 +274,9 @@ header.sticky{
       .snb {
         display: block;
       }
-      /* header{
+      header{
         background-color: transparent;
-      } */
+      }
 
       header:hover{
         background-color: #fff;
