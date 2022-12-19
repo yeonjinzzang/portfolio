@@ -11,6 +11,7 @@ max-width: 100%;
 overflow-x: hidden;} */
 ul{list-style: none !important;}
 a{text-decoration: none !important; color: inherit !important;}
+button{color: #2b2b2b;}
 
 .clearfix{
   content:"";
@@ -34,10 +35,10 @@ src:url(../font/Gloss_And_Bloom.ttf)format('truetype');}
     src:url(../font/SpoqaHanSansNeo-Regular.ttf)format('truetype');}
     
 @media screen and (max-width: 980px) {
-  html{font-size: 18px;}}
+  html{font-size: 18px !important;}}
 @media screen and (max-width: 768px) {
 
-  html{font-size: 16px;}}
+  html{font-size: 16px !important;}}
 
  @media screen and (max-width: 480px) {
-    html{font-size: 14px;}}
+    html{font-size: 14px !important;}}
