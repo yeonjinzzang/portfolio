@@ -115,10 +115,14 @@ header:hover header .gnbs{
 .gnbs >.lush_Hlist > li {
   height: 100%;
   padding-right: 1.2rem;
+  transition: all .3s;
 }
 
 .gnbs >.lush_Hlist .lush_Slist li{
   font-size: 14px;
+  color: #2b2b2b;
+  font-weight: normal;
+  transition: all .3s;
   /* margin: 10px; */
 }
 
@@ -134,19 +138,26 @@ header .img_hl{
 .gnbs >.lush_Hlist .lush_Slist>li>a{
   display: block;
   /* padding: 0 5px; */
-  line-height: 1.8;
+  line-height: 1.8rem;
  
 }
 
 .gnbs > ul > li > a {
-  display: block;
+  display:block;
  font-size: 18px;
   line-height: 80px;
   font-family: "GmarketSans_M";
+ 
+}
+.gnbs  .title_h:hover {
+  color: #cd9296;
+  font-weight: bold;
+}
+.gnbs >.lush_Hlist .lush_Slist li:hover{
+  color:#cd9296;
+ 
   
 }
-
-
 .gnbs .icons_H{
   display: flex;
 }
@@ -268,7 +279,7 @@ header.sticky{
       }
 
       header:hover{
-        background-color: transparent;
+        background-color: #fff;
       }
       header .toggle{
         display: block;
@@ -279,9 +290,6 @@ header.sticky{
       overflow: visible;
        height: 70px;
       }
-      header:hover{
-        background-color:transparent;
-        }
         
       .header-inner{
         max-width: none;
@@ -325,11 +333,15 @@ header.sticky{
   }
   .mobile_line1{
     width: 100%;
-    height: 4px;
+    height: 2px;
     border: none;
-    background-color:#999;
+    background: rgb(224,152,185);
+    background: linear-gradient(257deg, rgba(224,152,185,0.989233193277311) 0%, rgba(170,156,207,1) 52%, rgba(123,94,161,0.7399334733893557) 100%);
    margin-bottom: 20px;
-  
+  }
+  .mobile_line2{
+    background: rgb(224,152,185);
+    background: linear-gradient(257deg, rgba(224,152,185,0.989233193277311) 0%, rgba(170,156,207,1) 52%, rgba(123,94,161,0.7399334733893557) 100%);
   }
   .snb-m-bg {
     position: fixed;
